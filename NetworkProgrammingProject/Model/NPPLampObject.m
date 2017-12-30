@@ -1,17 +1,13 @@
 //
-//  ViewController.h
+//  NPPLampObject.m
 //  NetworkProgrammingProject
 //
 //  Created by Rex on 2017/12/24.
 //  Copyright © 2017年 Rex. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "NPPLampObject.h"
 
-
-@interface ViewController : UIViewController
-
-
+@implementation NPPLampObject
 
 @end
-

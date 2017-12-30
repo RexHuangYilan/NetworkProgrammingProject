@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DateValueFormatter.h
 //  NetworkProgrammingProject
 //
 //  Created by Rex on 2017/12/24.
@@ -7,11 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@import Charts;
 
-
-@interface ViewController : UIViewController
-
-
+@interface DateValueFormatter : NSObject <IChartAxisValueFormatter>
 
 @end
-

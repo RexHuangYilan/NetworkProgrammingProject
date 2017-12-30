@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521067CD343B87AA2518C6F6 /* Pods_NetworkProgrammingProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A388190A278288CE3DD15436 /* Pods_NetworkProgrammingProject.framework */; };
+		CD48B5931FF26F7900525572 /* TemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD48B5921FF26F7900525572 /* TemperatureViewController.m */; };
+		CD48B5961FF27F3100525572 /* ColorSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CD48B5951FF27F3100525572 /* ColorSlider.m */; };
+		CD48B59A1FF281DE00525572 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = CD48B5991FF281DE00525572 /* UIImage+Color.m */; };
+		CD48B59D1FF4555400525572 /* ColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD48B59C1FF4555400525572 /* ColorView.m */; };
 		CD8B4D1D1FEF531B00BDCCB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4D1C1FEF531B00BDCCB0 /* AppDelegate.m */; };
 		CD8B4D201FEF531B00BDCCB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4D1F1FEF531B00BDCCB0 /* ViewController.m */; };
 		CD8B4D231FEF531B00BDCCB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8B4D211FEF531B00BDCCB0 /* Main.storyboard */; };
 		CD8B4D251FEF531B00BDCCB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8B4D241FEF531B00BDCCB0 /* Assets.xcassets */; };
 		CD8B4D281FEF531B00BDCCB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8B4D261FEF531B00BDCCB0 /* LaunchScreen.storyboard */; };
 		CD8B4D2B1FEF531B00BDCCB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4D2A1FEF531B00BDCCB0 /* main.m */; };
+		CD8B4D351FEF5CD700BDCCB0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD8B4D341FEF5CD700BDCCB0 /* GoogleService-Info.plist */; };
+		CD8B4D3A1FEF62C700BDCCB0 /* HTWObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4D381FEF62C700BDCCB0 /* HTWObject.m */; };
+		CD8B4D3E1FEF632000BDCCB0 /* NPPLampObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4D3D1FEF632000BDCCB0 /* NPPLampObject.m */; };
+		CD8B4D421FEF96B200BDCCB0 /* LightViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4D411FEF96B200BDCCB0 /* LightViewManager.m */; };
+		CD8B4D451FEF9FB200BDCCB0 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4D441FEF9FB200BDCCB0 /* UIColor+HexColor.m */; };
+		CD8B4D491FEFAC4000BDCCB0 /* LightNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4D481FEFAC4000BDCCB0 /* LightNetworkManager.m */; };
+		CD8B4D4C1FEFDA3600BDCCB0 /* NPPSensorObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4D4B1FEFDA3600BDCCB0 /* NPPSensorObject.m */; };
+		CD8B4D501FEFFACF00BDCCB0 /* DateValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8B4D4F1FEFFACF00BDCCB0 /* DateValueFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7CF9E34146EA35D17E60E1E9 /* Pods-NetworkProgrammingProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkProgrammingProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkProgrammingProject/Pods-NetworkProgrammingProject.release.xcconfig"; sourceTree = "<group>"; };
+		96F1D340B51FFD4C5CB20C47 /* Pods-NetworkProgrammingProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkProgrammingProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkProgrammingProject/Pods-NetworkProgrammingProject.debug.xcconfig"; sourceTree = "<group>"; };
+		A388190A278288CE3DD15436 /* Pods_NetworkProgrammingProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkProgrammingProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD48B5911FF26F7900525572 /* TemperatureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemperatureViewController.h; sourceTree = "<group>"; };
+		CD48B5921FF26F7900525572 /* TemperatureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureViewController.m; sourceTree = "<group>"; };
+		CD48B5941FF27F3100525572 /* ColorSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorSlider.h; sourceTree = "<group>"; };
+		CD48B5951FF27F3100525572 /* ColorSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSlider.m; sourceTree = "<group>"; };
+		CD48B5981FF281DE00525572 /* UIImage+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		CD48B5991FF281DE00525572 /* UIImage+Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		CD48B59B1FF4555400525572 /* ColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
+		CD48B59C1FF4555400525572 /* ColorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
 		CD8B4D181FEF531B00BDCCB0 /* NetworkProgrammingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkProgrammingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8B4D1B1FEF531B00BDCCB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD8B4D1C1FEF531B00BDCCB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +50,21 @@
 		CD8B4D271FEF531B00BDCCB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD8B4D291FEF531B00BDCCB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD8B4D2A1FEF531B00BDCCB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD8B4D341FEF5CD700BDCCB0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD8B4D381FEF62C700BDCCB0 /* HTWObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTWObject.m; sourceTree = "<group>"; };
+		CD8B4D391FEF62C700BDCCB0 /* HTWObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTWObject.h; sourceTree = "<group>"; };
+		CD8B4D3C1FEF632000BDCCB0 /* NPPLampObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPPLampObject.h; sourceTree = "<group>"; };
+		CD8B4D3D1FEF632000BDCCB0 /* NPPLampObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPPLampObject.m; sourceTree = "<group>"; };
+		CD8B4D401FEF96B200BDCCB0 /* LightViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightViewManager.h; sourceTree = "<group>"; };
+		CD8B4D411FEF96B200BDCCB0 /* LightViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightViewManager.m; sourceTree = "<group>"; };
+		CD8B4D431FEF9FB200BDCCB0 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		CD8B4D441FEF9FB200BDCCB0 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		CD8B4D471FEFAC4000BDCCB0 /* LightNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightNetworkManager.h; sourceTree = "<group>"; };
+		CD8B4D481FEFAC4000BDCCB0 /* LightNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightNetworkManager.m; sourceTree = "<group>"; };
+		CD8B4D4A1FEFDA3600BDCCB0 /* NPPSensorObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPPSensorObject.h; sourceTree = "<group>"; };
+		CD8B4D4B1FEFDA3600BDCCB0 /* NPPSensorObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPPSensorObject.m; sourceTree = "<group>"; };
+		CD8B4D4E1FEFFACF00BDCCB0 /* DateValueFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateValueFormatter.h; sourceTree = "<group>"; };
+		CD8B4D4F1FEFFACF00BDCCB0 /* DateValueFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateValueFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +72,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521067CD343B87AA2518C6F6 /* Pods_NetworkProgrammingProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CAE1A6728C68827B9D9093FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96F1D340B51FFD4C5CB20C47 /* Pods-NetworkProgrammingProject.debug.xcconfig */,
+				7CF9E34146EA35D17E60E1E9 /* Pods-NetworkProgrammingProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD48B5971FF281C300525572 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CD48B5981FF281DE00525572 /* UIImage+Color.h */,
+				CD48B5991FF281DE00525572 /* UIImage+Color.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		CD8B4D0F1FEF531B00BDCCB0 = {
 			isa = PBXGroup;
 			children = (
 				CD8B4D1A1FEF531B00BDCCB0 /* NetworkProgrammingProject */,
 				CD8B4D191FEF531B00BDCCB0 /* Products */,
+				CAE1A6728C68827B9D9093FD /* Pods */,
+				E835BF8C045166969F0B4DCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +118,95 @@
 		CD8B4D1A1FEF531B00BDCCB0 /* NetworkProgrammingProject */ = {
 			isa = PBXGroup;
 			children = (
-				CD8B4D1B1FEF531B00BDCCB0 /* AppDelegate.h */,
-				CD8B4D1C1FEF531B00BDCCB0 /* AppDelegate.m */,
+				CD48B5971FF281C300525572 /* Category */,
+				CD8B4D461FEFAC0600BDCCB0 /* Network */,
+				CD8B4D3F1FEF96A100BDCCB0 /* View */,
+				CD8B4D3B1FEF62D900BDCCB0 /* Model */,
+				CD8B4D361FEF62C700BDCCB0 /* Lib */,
+				CD8B4D311FEF53CC00BDCCB0 /* Supporting Files */,
 				CD8B4D1E1FEF531B00BDCCB0 /* ViewController.h */,
 				CD8B4D1F1FEF531B00BDCCB0 /* ViewController.m */,
+				CD48B5911FF26F7900525572 /* TemperatureViewController.h */,
+				CD48B5921FF26F7900525572 /* TemperatureViewController.m */,
 				CD8B4D211FEF531B00BDCCB0 /* Main.storyboard */,
+			);
+			path = NetworkProgrammingProject;
+			sourceTree = "<group>";
+		};
+		CD8B4D311FEF53CC00BDCCB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B4D341FEF5CD700BDCCB0 /* GoogleService-Info.plist */,
+				CD8B4D1B1FEF531B00BDCCB0 /* AppDelegate.h */,
+				CD8B4D1C1FEF531B00BDCCB0 /* AppDelegate.m */,
 				CD8B4D241FEF531B00BDCCB0 /* Assets.xcassets */,
 				CD8B4D261FEF531B00BDCCB0 /* LaunchScreen.storyboard */,
 				CD8B4D291FEF531B00BDCCB0 /* Info.plist */,
 				CD8B4D2A1FEF531B00BDCCB0 /* main.m */,
 			);
-			path = NetworkProgrammingProject;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD8B4D361FEF62C700BDCCB0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B4D371FEF62C700BDCCB0 /* HTWObject */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		CD8B4D371FEF62C700BDCCB0 /* HTWObject */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B4D431FEF9FB200BDCCB0 /* UIColor+HexColor.h */,
+				CD8B4D441FEF9FB200BDCCB0 /* UIColor+HexColor.m */,
+				CD8B4D391FEF62C700BDCCB0 /* HTWObject.h */,
+				CD8B4D381FEF62C700BDCCB0 /* HTWObject.m */,
+			);
+			path = HTWObject;
+			sourceTree = "<group>";
+		};
+		CD8B4D3B1FEF62D900BDCCB0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B4D3C1FEF632000BDCCB0 /* NPPLampObject.h */,
+				CD8B4D3D1FEF632000BDCCB0 /* NPPLampObject.m */,
+				CD8B4D4A1FEFDA3600BDCCB0 /* NPPSensorObject.h */,
+				CD8B4D4B1FEFDA3600BDCCB0 /* NPPSensorObject.m */,
+				CD8B4D4E1FEFFACF00BDCCB0 /* DateValueFormatter.h */,
+				CD8B4D4F1FEFFACF00BDCCB0 /* DateValueFormatter.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD8B4D3F1FEF96A100BDCCB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B4D401FEF96B200BDCCB0 /* LightViewManager.h */,
+				CD8B4D411FEF96B200BDCCB0 /* LightViewManager.m */,
+				CD48B5941FF27F3100525572 /* ColorSlider.h */,
+				CD48B5951FF27F3100525572 /* ColorSlider.m */,
+				CD48B59B1FF4555400525572 /* ColorView.h */,
+				CD48B59C1FF4555400525572 /* ColorView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD8B4D461FEFAC0600BDCCB0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CD8B4D471FEFAC4000BDCCB0 /* LightNetworkManager.h */,
+				CD8B4D481FEFAC4000BDCCB0 /* LightNetworkManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E835BF8C045166969F0B4DCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A388190A278288CE3DD15436 /* Pods_NetworkProgrammingProject.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD8B4D2E1FEF531B00BDCCB0 /* Build configuration list for PBXNativeTarget "NetworkProgrammingProject" */;
 			buildPhases = (
+				493D0F697EF2B1A77CA9DD23 /* [CP] Check Pods Manifest.lock */,
 				CD8B4D141FEF531B00BDCCB0 /* Sources */,
 				CD8B4D151FEF531B00BDCCB0 /* Frameworks */,
 				CD8B4D161FEF531B00BDCCB0 /* Resources */,
+				9B0A44BE8248DE032508460A /* [CP] Embed Pods Frameworks */,
+				77173632EA53FEB74E461804 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,20 +272,98 @@
 			files = (
 				CD8B4D281FEF531B00BDCCB0 /* LaunchScreen.storyboard in Resources */,
 				CD8B4D251FEF531B00BDCCB0 /* Assets.xcassets in Resources */,
+				CD8B4D351FEF5CD700BDCCB0 /* GoogleService-Info.plist in Resources */,
 				CD8B4D231FEF531B00BDCCB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		493D0F697EF2B1A77CA9DD23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetworkProgrammingProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77173632EA53FEB74E461804 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetworkProgrammingProject/Pods-NetworkProgrammingProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B0A44BE8248DE032508460A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NetworkProgrammingProject/Pods-NetworkProgrammingProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/ChartsRealm/ChartsRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChartsRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetworkProgrammingProject/Pods-NetworkProgrammingProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD8B4D141FEF531B00BDCCB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8B4D451FEF9FB200BDCCB0 /* UIColor+HexColor.m in Sources */,
+				CD8B4D3A1FEF62C700BDCCB0 /* HTWObject.m in Sources */,
 				CD8B4D201FEF531B00BDCCB0 /* ViewController.m in Sources */,
 				CD8B4D2B1FEF531B00BDCCB0 /* main.m in Sources */,
+				CD48B59D1FF4555400525572 /* ColorView.m in Sources */,
+				CD8B4D3E1FEF632000BDCCB0 /* NPPLampObject.m in Sources */,
+				CD8B4D491FEFAC4000BDCCB0 /* LightNetworkManager.m in Sources */,
+				CD8B4D501FEFFACF00BDCCB0 /* DateValueFormatter.m in Sources */,
+				CD48B5931FF26F7900525572 /* TemperatureViewController.m in Sources */,
+				CD8B4D4C1FEFDA3600BDCCB0 /* NPPSensorObject.m in Sources */,
 				CD8B4D1D1FEF531B00BDCCB0 /* AppDelegate.m in Sources */,
+				CD48B5961FF27F3100525572 /* ColorSlider.m in Sources */,
+				CD8B4D421FEF96B200BDCCB0 /* LightViewManager.m in Sources */,
+				CD48B59A1FF281DE00525572 /* UIImage+Color.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +495,7 @@
 		};
 		CD8B4D2F1FEF531B00BDCCB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96F1D340B51FFD4C5CB20C47 /* Pods-NetworkProgrammingProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +510,7 @@
 		};
 		CD8B4D301FEF531B00BDCCB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CF9E34146EA35D17E60E1E9 /* Pods-NetworkProgrammingProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
