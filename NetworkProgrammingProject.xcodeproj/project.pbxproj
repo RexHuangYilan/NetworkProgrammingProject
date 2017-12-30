@@ -40,7 +40,7 @@
 		CD48B5991FF281DE00525572 /* UIImage+Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		CD48B59B1FF4555400525572 /* ColorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorView.h; sourceTree = "<group>"; };
 		CD48B59C1FF4555400525572 /* ColorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorView.m; sourceTree = "<group>"; };
-		CD8B4D181FEF531B00BDCCB0 /* NetworkProgrammingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkProgrammingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8B4D181FEF531B00BDCCB0 /* SACS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SACS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8B4D1B1FEF531B00BDCCB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD8B4D1C1FEF531B00BDCCB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CD8B4D1E1FEF531B00BDCCB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 		CD8B4D191FEF531B00BDCCB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD8B4D181FEF531B00BDCCB0 /* NetworkProgrammingProject.app */,
+				CD8B4D181FEF531B00BDCCB0 /* SACS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -229,7 +229,7 @@
 			);
 			name = NetworkProgrammingProject;
 			productName = NetworkProgrammingProject;
-			productReference = CD8B4D181FEF531B00BDCCB0 /* NetworkProgrammingProject.app */;
+			productReference = CD8B4D181FEF531B00BDCCB0 /* SACS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -503,7 +503,7 @@
 				INFOPLIST_FILE = NetworkProgrammingProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.etmall.NetworkProgrammingProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SACS;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -518,7 +518,7 @@
 				INFOPLIST_FILE = NetworkProgrammingProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.etmall.NetworkProgrammingProject;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SACS;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
