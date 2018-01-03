@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		521067CD343B87AA2518C6F6 /* Pods_NetworkProgrammingProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A388190A278288CE3DD15436 /* Pods_NetworkProgrammingProject.framework */; };
+		CD487BC61FFD8D0200F24631 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = CD487BC51FFD8D0200F24631 /* readme.md */; };
 		CD48B5931FF26F7900525572 /* TemperatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD48B5921FF26F7900525572 /* TemperatureViewController.m */; };
 		CD48B5961FF27F3100525572 /* ColorSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CD48B5951FF27F3100525572 /* ColorSlider.m */; };
 		CD48B59A1FF281DE00525572 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = CD48B5991FF281DE00525572 /* UIImage+Color.m */; };
@@ -32,6 +33,7 @@
 		7CF9E34146EA35D17E60E1E9 /* Pods-NetworkProgrammingProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkProgrammingProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkProgrammingProject/Pods-NetworkProgrammingProject.release.xcconfig"; sourceTree = "<group>"; };
 		96F1D340B51FFD4C5CB20C47 /* Pods-NetworkProgrammingProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkProgrammingProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkProgrammingProject/Pods-NetworkProgrammingProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A388190A278288CE3DD15436 /* Pods_NetworkProgrammingProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkProgrammingProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD487BC51FFD8D0200F24631 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		CD48B5911FF26F7900525572 /* TemperatureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemperatureViewController.h; sourceTree = "<group>"; };
 		CD48B5921FF26F7900525572 /* TemperatureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureViewController.m; sourceTree = "<group>"; };
 		CD48B5941FF27F3100525572 /* ColorSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorSlider.h; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		CD8B4D0F1FEF531B00BDCCB0 = {
 			isa = PBXGroup;
 			children = (
+				CD487BC51FFD8D0200F24631 /* readme.md */,
 				CD8B4D1A1FEF531B00BDCCB0 /* NetworkProgrammingProject */,
 				CD8B4D191FEF531B00BDCCB0 /* Products */,
 				CAE1A6728C68827B9D9093FD /* Pods */,
@@ -273,6 +276,7 @@
 				CD8B4D281FEF531B00BDCCB0 /* LaunchScreen.storyboard in Resources */,
 				CD8B4D251FEF531B00BDCCB0 /* Assets.xcassets in Resources */,
 				CD8B4D351FEF5CD700BDCCB0 /* GoogleService-Info.plist in Resources */,
+				CD487BC61FFD8D0200F24631 /* readme.md in Resources */,
 				CD8B4D231FEF531B00BDCCB0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
